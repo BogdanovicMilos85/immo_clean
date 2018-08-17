@@ -1,0 +1,110 @@
+.icon-header-item{
+  font-size:15px;
+}
+
+.tekstrrr{
+  font-size: 24px;
+  color: #404551;
+}
+.widdh{
+  height: 400px;
+}
+
+/* -----------------------
+:: 14.0 About Us CSS
+----------------------- */
+
+.bg-img {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.few-words-from-ceo {
+    overflow-x: hidden;
+
+      margin-bottom: 250px;
+
+}
+
+.mosh-about-us-content .section-heading {
+    margin-bottom: 50px;
+}
+
+.few-words-contents,
+.few-words-thumb {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    height: 770px;
+}
+
+.few-words-contents {
+    background-color: #211b31;
+}
+
+.few-words-text .section-heading {
+    margin-bottom: 50px;
+}
+
+.few-words-text .section-heading h2 {
+    color: #fff;
+}
+
+.few-words-text > p {
+    margin-bottom: 0;
+}
+
+.ceo-meta-data .ceo-thumb {
+    width: 52px;
+    height: 52px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 52px;
+    flex: 0 0 52px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.ceo-meta-data .ceo-name h6 {
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.ceo-meta-data .ceo-name p {
+    margin-bottom: 0;
+    line-height: 1;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important; }
+  @media (max-width: 56.25em) {
+    .u-margin-bottom-medium {
+      margin-bottom: 3rem !important; } }
+
+
+.pozadina{
+  background-image: url(../images/cover/9.jpg);
+}
+
+.pozadina2{
+  background-image: url(../images/cover/3.jpg);
+}
+
+.pozadina3{
+  background-image: url(../images/cover/8.jpg);
+}
+
+.js--wp-1, .js--wp-5, .js--wp-6, .js--wp-7, .js--wp-8, .js--wp-9, .js--wp-10, .js--wp-11, .js--wp-12,   {
+   opacity: 0;
+   -webkit-animation-duration: 1s;
+   animation-duration: 1s;
+}
+
+
+.js--wp-1.animated,   .js--wp-5.animated, .js--wp-6.animated, .js--wp-7.animated, .js--wp-8.animated, .js--wp-9.animated, .js--wp-10.animated, .js--wp-11.animated, .js--wp-12.animated {
+   opacity: 1;
+}

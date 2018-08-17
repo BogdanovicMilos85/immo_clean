@@ -1,0 +1,75 @@
+
+/* what we do tekst i slika iza  */
+.section-features {
+  background-size: cover;
+
+  transform: skewY(-7deg); }
+  .section-features > * {
+    transform: skewY(7deg); }
+  @media (max-width: 56.25em) {
+    .section-features {
+      padding: 15rem 0; } }
+
+
+      .heading-white {
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        display: inline-block;
+        -webkit-background-clip: text;
+        color: white;
+        letter-spacing: 2px;
+        transition: all .2s;
+        position: relative;
+        bottom: 45px; }
+        @media (max-width: 56.25em) {
+          .heading-white {
+            font-size: 3rem; } }
+        @media (max-width: 37.5em) {
+          .heading-white {
+            font-size: 2.5rem; } }
+        .heading-white:hover {
+          transform: skewY(2deg) skewX(15deg) scale(1.1);
+          text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+          .u-center-text {
+            text-align: center !important; }
+
+            .featueres-box {
+              background-color: rgba(255, 255, 255, 0.8);
+              font-size: 1.5rem;
+              padding: 2.5rem;
+              text-align: center;
+              border-radius: 3px;
+              box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+              transition: transform .4s; }
+              .featueres-box-icon {
+                font-size: 6rem;
+                margin-bottom: .5rem;
+                background-image: linear-gradient(to right, #ffb900, #ff7730);
+                -webkit-background-clip: text;
+                color: transparent; }
+              .featueres-box:hover {
+                transform: scale(1.03) translateY(-1.5rem);
+                box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5); }
+
+
+                .heading-tertiary {
+                  color: #404551;
+                  font-size: 1.8rem;
+                  font-weight: 700;
+                  text-transform: uppercase; }
+
+
+                  .u-margin-bottom-small {
+                    margin-bottom: 1.5rem !important; }
+
+                    .fa-globe {
+                      margin-bottom: 1.5rem; }
+
+                      .fa-money-bill-alt {
+                        margin-bottom: 1.5rem; }
+
+                        .fab {
+                          color: white;
+                          padding: 5px; }
