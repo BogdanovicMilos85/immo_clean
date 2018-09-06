@@ -1,6 +1,6 @@
 <?php
 
-    $to = "stefan.ebxhub@gmail.com";
+    $to = "stefanparovic@yahoo.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
@@ -13,7 +13,7 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "You have a message from your Sierra.";
+    $subject = "You have a message from your Site.";
 
     $logo = '#';
     $link = '#';

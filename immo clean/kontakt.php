@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Your partner for absolute cleanliness. Immoclean is a leading company that offers cleaning and maintenance services." />
-        <meta name="keywords" content="Cleaning of buildings, cleaning agency, cleaning of office space, cleaning company, cleaning of office space Belgrade " />
+        <meta name="description" content="Vas partner za apsolutnu cistocu. Immoclean je vodeca firma koja nudi usluge ciscenja i odrzavanja objekata." />
+        <meta name="keywords" content="Ciscenje zgrada, agencija za ciscenje, Ciscenje poslovnog prostora, firma za ciscenje, ciscenje poslovnog prostora beograd " />
 
         <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Contact</title>
+        <title>Kontakt</title>
 
         <!-- Icon css link -->
         <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -51,16 +51,16 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <li class="nav-item "><a class="nav-link"  href="index-en.html">Home Page</a></li>
+                        <li class="nav-item "><a class="nav-link"  href="index.php">Početna</a></li>
 
-                        <li class="nav-item"><a class="nav-link"  href="cleaningofbuildings.html">cleaning of buildings</a></li>
-                        <li class="nav-item"><a class="nav-link"  href="about-us.html">about us</a></li>
-                        <li class="nav-item"><a class="nav-link"  href="services.html">services</a></li>
-                        <li class="nav-item"><a class="nav-link"  href="cleaningafterafireandflood.html">fire and flood</a></li>
+                        <li class="nav-item"><a class="nav-link"  href="ciscenjezgrada.html">ČIŠĆENJE ZGRADA</a></li>
+                        <li class="nav-item"><a class="nav-link"  href="onama.html">O nama</a></li>
+                        <li class="nav-item"><a class="nav-link"  href="usluge.html">Usluge</a></li>
+                        <li class="nav-item"><a class="nav-link"  href="ciscenjenakonpoplavaipozara.html">Poplave i požari</a></li>
 
-                        <li class="nav-item active"><a class="nav-link"  href="contact.html">contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="kontakt.html"><img  src="img/icon/sr.png" alt="Srpski">SR</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><img src="img/icon/en.png" alt="Engleski">EN</a></li>
+                        <li class="nav-item active"><a class="nav-link"  href="kontakt.html">Kontakt</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><img  src="img/icon/sr.png" alt="Srpski">SR</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html"><img src="img/icon/en.png" alt="Engleski">EN</a></li>
                     </ul>
                 </div>
             </nav>
@@ -71,7 +71,7 @@
         <section class="banner_area">
             <div class="container">
                 <div class="banner_inner_text">
-                    <h2>Contact</h2>
+                    <h2>Kontakt</h2>
                     <!-- <p>Get in touch</p> -->
                 </div>
             </div>
@@ -98,19 +98,19 @@
 
                         </div> -->
                           <div class="form-group col-lg-6">
-                              <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                              <input type="text" class="form-control" id="name" name="name" placeholder="Ime i prezime">
                           </div>
                           <div class="form-group col-lg-6">
                               <input type="email" class="form-control" id="email" name="email" placeholder="Email ">
                           </div>
                           <div class="form-group col-lg-12">
-                              <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject*">
+                              <input type="text" class="form-control" id="subject" name="subject" placeholder="Naslov*">
                           </div>
                           <div class="form-group col-lg-12">
-                              <textarea class="form-control" name="message" id="message" rows="1" placeholder="your message"></textarea>
+                              <textarea class="form-control" name="message" id="message" rows="1" placeholder="Vaša poruka"></textarea>
                           </div>
                           <div class="form-group col-lg-12">
-                              <button type="submit" value="submit" class="btn submit_btn form-control">Send</button>
+                              <button type="submit" value="submit" class="btn submit_btn form-control">Pošalji</button>
                           </div>
                       </form>
                   </div>
@@ -119,10 +119,10 @@
                           <div class="l_title">
 
 
-                              <h2>Contact us, send us an e-mail or call us</h2>
+                              <h2>Kontaktirajte nas, pošaljite nam e-mail ili nas nazovite</h2>
                           </div>
-                          <p>You need a job? Leave your CV on our site. You may be just the right person for us.</p>
-                          <a href="tel:+381117873111"><h5>Call us now</h5></a>
+                          <p>Potreban vam je posao? Ostavite vašu radnu biografiju na našem sajtu. Možda ste baš vi prava osoba za nas.</p>
+                          <a href="tel:+381117873111"><h5>Nazovite nas sad</h5></a>
                           <a href="tel:+381117873111"><h4>+381 11 78 73 111</h4></a>
                       </div>
                   </div>
@@ -166,7 +166,7 @@
                         <div class="col-lg-4 col-sm-6">
                             <aside class="f_widget f_about_widget">
                                 <img src="img/immo_logo.jpg" alt="">
-                                <p>Your partner for apsolutely clean</p>
+                                <p>Vaš partner za apsolutnu čistoću</p>
                             </aside>
                         </div>
                         <div class="col-lg-4 col-sm-6">
@@ -211,7 +211,7 @@ Copyright Immo Clean &copy;<script>document.write(new Date().getFullYear());</sc
                     </div>
                     <div class="float-sm-right">
                         <ul>
-                        <li><a href="https://www.facebook.com/immoclean.profesionalno.ciscenje/"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="https://www.facebook.com/immoclean.profesionalno.ciscenje/"><i class="fa fa-facebook"></i></a></li>
                         </ul>
                     </div>
                 </div>

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="sr">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-         <meta name="description" content="Vas partner za apsolutnu cistocu. Immoclean je vodeca firma koja nudi usluge ciscenja i odrzavanja objekata." />
-         <meta name="keywords" content="Ciscenje zgrada, agencija za ciscenje, Ciscenje poslovnog prostora, firma za ciscenje, ciscenje poslovnog prostora beograd " />
+        <meta name="description" content="Your partner for absolute cleanliness. Immoclean is a leading company that offers cleaning and maintenance services." />
+        <meta name="keywords" content="Cleaning of buildings, cleaning agency, cleaning of office space, cleaning company, cleaning of office space Belgrade " />
 
         <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
@@ -55,17 +55,16 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <li class="nav-item active"><a class="nav-link"  href="index.html">Početna</a></li>
+                        <li class="nav-item active"><a class="nav-link"  href="index-en.php">Home Page</a></li>
 
+                        <li class="nav-item"><a class="nav-link"  href="cleaningofbuildings.html">cleaning of buildings</a></li>
+                        <li class="nav-item"><a class="nav-link"  href="about-us.html">about us</a></li>
+                        <li class="nav-item"><a class="nav-link"  href="services.html">services</a></li>
+                        <li class="nav-item"><a class="nav-link"  href="cleaningafterafireandflood.html">fire and flood</a></li>
 
-                        <li class="nav-item"><a class="nav-link"  href="ciscenjezgrada.html">ČIŠĆENJE ZGRADA</a></li>
-                        <li class="nav-item"><a class="nav-link"  href="onama.html">O nama</a></li>
-                        <li class="nav-item"><a class="nav-link"  href="usluge.html">Usluge</a></li>
-                        <li class="nav-item"><a class="nav-link"  href="ciscenjenakonpoplavaipozara.html">Poplave i požari</a></li>
-
-                        <li class="nav-item"><a class="nav-link"  href="kontakt.html">Kontakt</a></li>
-                        <li class="nav-item"><a class="nav-link"  href="#"><img  src="img/icon/sr.png" alt="Srpski">SR</a></li>
-                        <li class="nav-item"><a class="nav-link"  href="index-en.html"><img src="img/icon/en.png" alt="Engleski">EN</a></li>
+                        <li class="nav-item"><a class="nav-link"  href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link"  href="index.php"><img  src="img/icon/sr.png" alt="Srpski">SR</a></li>
+                        <li class="nav-item"><a class="nav-link"  href="#"><img src="img/icon/en.png" alt="Engleski">EN</a></li>
                     </ul>
                 </div>
             </nav>
@@ -114,19 +113,19 @@
                         <div class="team_people_text">
                             <div class="l_title">
                                 <img src="img/water3.png" alt="">
-                                <h6>O nama</h6>
-                                <h2>Vaš partner za apsolutnu čistoću</h2>
+                                <h6>ABOUT US</h6>
+                                <h2>Immo Clean, a trusted company</h2>
                             </div>
-                            <p>Kao jedna od vodećih firmi koje nude usluge čišćenja i održavanja objekata nudimo sledeće usluge.</p>
+                            <p>As one of the leading cleaning providers we take care of all kinds of buildings and facilities:</p>
                             <ul>
-                                <li><a href="usluge.html">Čišćenje biroa </a></li>
-                                <li><a href="usluge.html">Tržnih centara</a></li>
-                                <li><a href="usluge.html">Industrijskih preduzeća</a></li>
-                                <li><a href="usluge.html">Hotelski servis </a></li>
-                                <li><a href="usluge.html">Čišćenje aviona</a></li>
-                                <li><a href="usluge.html">Posebna čišćenja</a></li>
-                                <li><a href="usluge.html">Hausmajstorske usluge </a></li>
-                                <li><a href="usluge.html">Održavanje stubišta</a></li>
+                                <li><a href="services.html">Cleaning offices </a></li>
+                                <li><a href="services.html">Cleaning offices</a></li>
+                                <li><a href="services.html">Industrial facillities</a></li>
+                                <li><a href="services.html">Hotel services </a></li>
+                                <li><a href="services.html">Cleaning airplanes</a></li>
+                                <li><a href="services.html">Special cleaning</a></li>
+                                <li><a href="services.html">Janitor services </a></li>
+                                <li><a href="services.html">Staircase maintenance</a></li>
 
                             </ul>
 
@@ -145,12 +144,12 @@
                 </div>
             </div>
             <div class="havarije">
-            <h1 style="text-align: center;">Posebne Usluge:</h1>
+            <h1 style="text-align: center;">Special Services:</h1>
             <div class="textcontainer">
-              <span class="particletext bubbles"><a style="color:inherit;" href="ciscenjenakonpoplavaipozara.html">Čišćenje nakon poplava</a></span>
+              <span class="particletext bubbles"><a style="color:inherit;" href="cleaningafterafireandflood.html">Cleaning after floods</a></span>
             </div>
             <div class="textcontainer">
-              <span class="particletext fire"><a style="color:inherit;" href="ciscenjenakonpoplavaipozara.html">Čišćenje nakon pozara</a></span>
+              <span class="particletext fire"><a style="color:inherit;" href="cleaningafterafireandflood.html">Cleaning after fire</a></span>
             </div>
         </div>
         </section>
@@ -161,78 +160,75 @@
         <section class="section-features">
             <div class="u-center-text">
                 <h2 class="heading-white">
-                    Naše Usluge
+                  OUR SERVICES
                 </h2>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="card-column col-lg-3 col-md-4 col-sm-6 col-12 u-margin-bottom-medium">
-                      <a href="profesionalnociscenje.html">
+                      <a href="professionalcleaning.html">
                         <div class="thecard">
                             <div class="thecard__side thecard__side--front">
                                 <i class="thecard-icon fas fa-allergies ifont"></i>
                                 <hr class="thecard-separator">
-                                <h3 class="thecard-text">Profesionalno
-                                  <br>čišćenje</h3>
+                                <h3 class="thecard-text">Professional <br> Cleaning</h3>
                             </div>
 
                             <div class="thecard__side thecard__side--back">
                                 <div class="thecard__side--back-text">
-                                    Čista rešenja zahtevaju čiste koncepte. Profesionalno čišćenje prilagođeno je zahtevima i potrebama individualnih klijenta.
+                                  Pure solutions require pure concepts. Professional cleaning is customized for the requirements and needs of individual clients.
                                 </div>
                             </div>
                         </div>
                       </a>
                     </div>
                     <div class="card-column col-lg-3 col-md-4 col-sm-6 col-12 u-margin-bottom-medium">
-                      <a href="posebneusluge.html">
+                      <a href="specialservices.html">
                         <div class="thecard">
                             <div class="thecard__side thecard__side--front">
                                 <i class="thecard-icon fas fa-plus ifont"></i>
                                 <hr class="thecard-separator">
-                                <h3 class="thecard-text">Posebne
-                                    <br>Usluge</h3>
+                                <h3 class="thecard-text">Special <br> Services</h3>
                             </div>
 
                             <div class="thecard__side thecard__side--back">
                                 <div class="thecard__side--back-text">
-                                    Pod posebnim uslugama podrazumevamo usluge, koje se na i u Vašem objektu i ne moraju obavljati svakodnevno, kao čišćenje i održavanje, ali periodično.
+                                  Under the special services we provide services that are on and in your facility and must be done daily, as well as cleaning and maintenance, but periodically.
                                 </div>
                             </div>
                         </div>
                       </a>
                     </div>
                     <div class="card-column col-lg-3 col-md-4 col-sm-6 col-12 u-margin-bottom-medium">
-                      <a href="dnevnociscenje.html">
+                      <a href="dailycleaning.html">
                         <div class="thecard">
                             <div class="thecard__side thecard__side--front">
                                 <i class="thecard-icon far fa-calendar-alt ifont"></i>
                                 <hr class="thecard-separator">
-                                <h3 class="thecard-text">Dnevno
-                                  <br>čišćenje</h3>
+                                <h3 class="thecard-text">Daily <br> Cleaning</h3>
                             </div>
 
                             <div class="thecard__side thecard__side--back">
                                 <div class="thecard__side--back-text">
-                                    Dnevno čišćenje, podrazumeva svakodnevno odnosno tekuće čišćenje, naša je najbitnija usluga.
+                                  Daily cleaning, meaning everyday cleaning, is our most important service.
                                 </div>
                             </div>
                         </div>
                       </a>
                     </div>
                     <div class="card-column col-lg-3 col-md-4 col-sm-6 col-12 u-margin-bottom-medium">
-                      <a href="ciscenjezdrastvenihustanova.html">
+                      <a href="cleansinghealthcareinstitutions.html">
                         <div class="thecard">
                             <div class="thecard__side thecard__side--front">
                                 <i class="thecard-icon fas fa-hospital-alt ifont"></i>
                                 <hr class="thecard-separator">
-                                <h3 class="thecard-text">Čišćenje
-                                    <br>Zdrastvenih ustanova</h3>
+                                <h3 class="thecard-text">Cleaning <br>  Health Institutions </h3>
                             </div>
 
                             <div class="thecard__side thecard__side--back">
                                 <div class="thecard__side--back-text">
-                                  Bolnice, lekarske prakse, domovi zdravlja i sl. Perfektna higijena – tamo, gde se brine o zdravlju.
+                                  Hospitals, medical practices, health centers, etc..
+  Perfect hygiene - there, where they worry about health.
                                 </div>
                             </div>
                         </div>
@@ -241,54 +237,51 @@
                 </div>
                 <div class="row">
                     <div class="card-column col-lg-3 col-md-4 col-sm-6 col-12 u-margin-bottom-medium">
-                      <a href="hotelservis.html">
+                      <a href="hotelservice.html">
                         <div class="thecard">
                             <div class="thecard__side thecard__side--front">
                                 <i class="thecard-icon fas fa-hotel ifont"></i>
                                 <hr class="thecard-separator">
-                                <h3 class="thecard-text">Hotel
-                                <br>Servis </h3>
+                                <h3 class="thecard-text">Hotel <br> Service </h3>
                             </div>
 
                             <div class="thecard__side thecard__side--back">
                                 <div class="thecard__side--back-text">
-                                  Da ostavite dobar utisak na vašeg gosta. Čišćenje stvara ugodnost. Gost se vraća ponovo u hotel, ako se oseća ugodno.
+                                  To leave a good impression on your guests. Cleaning creates comfort. Guest returns back to the hotel, if he feels comfortable.
                                 </div>
                             </div>
                         </div>
                       </a>
                     </div>
                     <div class="card-column col-lg-3 col-md-4 col-sm-6 col-12 u-margin-bottom-medium">
-                      <a href="uslugeciscenja.html">
+                      <a href="cleaningservices.html">
                         <div class="thecard">
                             <div class="thecard__side thecard__side--front">
                                 <i class="thecard-icon fab fa-servicestack ifont"></i>
                                 <hr class="thecard-separator">
-                                <h3 class="thecard-text">Usluge
-                                    <br>Čišćenja</h3>
+                                <h3 class="thecard-text">Cleaning <br> Services</h3>
                             </div>
 
                             <div class="thecard__side thecard__side--back">
                                 <div class="thecard__side--back-text">
-                                   Čišćenje inventara Opšti radovi, često nazvani sporednim radovima, kao npr. pražnenje pepeljara i kanti, čišćenje nameštaja i svetiljki.
+                                  Cleaning inventory General works, often called minor works, such as. cleaning ashtray bins, cleaning of furniture and lamps.
                                 </div>
                             </div>
                         </div>
                       </a>
                     </div>
                     <div class="card-column col-lg-3 col-md-4 col-sm-6 col-12 u-margin-bottom-medium">
-                      <a href="opremaiservis.html">
+                      <a href="equipmentandservice.html">
                         <div class="thecard">
                             <div class="thecard__side thecard__side--front">
                                 <i class="thecard-icon fas fa-broom ifont"></i>
                                 <hr class="thecard-separator">
-                                <h3 class="thecard-text">Oprema i
-                                    <br>Servis</h3>
+                                <h3 class="thecard-text">Equipment and <br> Service</h3>
                             </div>
 
                             <div class="thecard__side thecard__side--back">
                                 <div class="thecard__side--back-text">
-                                  Posedujemo vrhunsku opremu i obezbeđujemo najkvalitetnija sredstva za čišćenje.
+                                  We have top quality equipment and provide top quality cleaning.
 
                                 </div>
                             </div>
@@ -296,17 +289,17 @@
                       </a>
                     </div>
                     <div class="card-column col-lg-3 col-md-4 col-sm-6 col-12 u-margin-bottom-medium">
-                      <a href="ciscenjezgrada.html">
+                      <a href="cleaningofbuildings.html">
                         <div class="thecard">
                             <div class="thecard__side thecard__side--front">
                                 <i class="thecard-icon fab fa-opencart ifont"></i>
                                 <hr class="thecard-separator">
-                                <h3 class="thecard-text">Čišćenje <br> Zgrada</h3>
+                                <h3 class="thecard-text"> Cleaning of <br> buildings</h3>
                             </div>
 
                             <div class="thecard__side thecard__side--back">
                                 <div class="thecard__side--back-text">
-                                STANDARD (paket) i  EXTRA PLUS (vip paket)
+                                  STANDARD (package) and EXTRA PLUS (vip package)
                                 </div>
                             </div>
                         </div>
@@ -315,72 +308,68 @@
                 </div>
                 <div class="row">
                     <div class="card-column col-lg-3 col-md-4 col-sm-6 col-12 u-margin-bottom-medium">
-                      <a href="zimskasluzba.html">
+                      <a href="winterservice.html">
                         <div class="thecard">
                             <div class="thecard__side thecard__side--front">
                                 <i class="thecard-icon fas fa-snowflake ifont"></i>
                                 <hr class="thecard-separator">
-                                <h3 class="thecard-text">Zimska
-                                <br>Služba </h3>
+                                <h3 class="thecard-text"> Winter <br> Services </h3>
                             </div>
 
                             <div class="thecard__side thecard__side--back">
                                 <div class="thecard__side--back-text">
-                                  Mi smo zimska služba, opremljeni najmodernijim plugovima i spravama. Obavljamo celokupno čišćenje snega.
+                                We are winter service, equipped with the latest gadgets. We do the whole snow clearance.
                                 </div>
                             </div>
                         </div>
                       </a>
                     </div>
                     <div class="card-column col-lg-3 col-md-4 col-sm-6 col-12 u-margin-bottom-medium">
-                      <a href="obezbedjenjeosoblja.html">
+                      <a href="staffing.html">
                         <div class="thecard">
                             <div class="thecard__side thecard__side--front">
                                 <i class="thecard-icon fas fa-people-carry ifont"></i>
                                 <hr class="thecard-separator">
-                                <h3 class="thecard-text">Obezbeđenje
-                                    <br>Osoblja</h3>
+                                <h3 class="thecard-text"> Providing <br> Staff</h3>
                             </div>
 
                             <div class="thecard__side thecard__side--back">
                                 <div class="thecard__side--back-text">
-                                    Znate koliko je teško da nađete kompetentnu i odgovornu radnu snagu.
+                                  You know how difficult it is to find a competent and responsible work force.
                                 </div>
                             </div>
                         </div>
                       </a>
                     </div>
                     <div class="card-column col-lg-3 col-md-4 col-sm-6 col-12 u-margin-bottom-medium">
-                       <a href="ciscenjenakonpoplavaipozara.html">
+                       <a href="cleaningafterafireandflood.html">
                         <div class="thecard">
                             <div class="thecard__side thecard__side--front">
                                 <i class="thecard-icon fas fa-fire ifont"></i>
                                 <hr class="thecard-separator">
-                                <h3 class="thecard-text">Čišćenje nakon
-                                    <br>požara i poplave</h3>
+                                <h3 class="thecard-text">Cleaning after <br> fire and flood</h3>
                             </div>
 
                             <div class="thecard__side thecard__side--back">
                                 <div class="thecard__side--back-text">
-                                    Mi stručno uklanjamo štete nakon začađenja uzrokovanog požarom: ...
+                                    We professionally eliminate damage after a fire caused by: ...
                                 </div>
                             </div>
                         </div>
                       </a>
                     </div>
                     <div class="card-column col-lg-3 col-md-4 col-sm-6 col-12 u-margin-bottom-medium">
-                      <a href="katalognasihusluga.html">
+                      <a href="catalogofourservices.html">
                         <div class="thecard">
                             <div class="thecard__side thecard__side--front">
                                 <i class="thecard-icon fas fa-calendar ifont"></i>
                                 <hr class="thecard-separator">
-                                <h3 class="thecard-text">Katalog naših
-                                    <br>usluga</h3>
+                                <h3 class="thecard-text"> Catalog of our <br> services</h3>
                             </div>
 
                             <div class="thecard__side thecard__side--back">
                                 <div class="thecard__side--back-text">
-                                      Čišćenje vanjskih površina i mesta, Čišćenje zgrada, Čišćenje snega ...
+                                      Cleaning external surfaces and places, Cleaning of buildings, Snow clearance ...
                                 </div>
                             </div>
                         </div>
@@ -397,7 +386,7 @@
                 <div class="c_title">
                     <img src="img/water3.png" alt="">
                     <!-- <h6>Discover the features</h6> -->
-                    <h2>Naši sertifikati</h2>
+                    <h2>Our certificates</h2>
                 </div>
                 <div class="row feature_inner">
                     <div class="col-lg-4 col-sm-6">
@@ -405,8 +394,8 @@
                             <div class="f_icon">
                                 <img src="img/pdf/ser1.png" alt="">
                             </div>
-                            <h4>Sertifikat 14001 Srpski </h4>
-                            <p> Sertifikatom se potvrđuje da je sistem menadžmenta zaštite sredine gore navedenog drustva odobrio PCA Sertifikacija </p>
+                            <h4>Certificate 14001 Serbian </h4>
+                            <p> The certificate confirms that the environmental protection management system of the aforementioned company has been approved by PCA Certification </p>
                             <a class="more_btn" href="img/pdf/14001srp.pdf" target="_blank">Read More</a>
                         </div>
                     </div>
@@ -415,8 +404,8 @@
                             <div class="f_icon">
                                 <img src="img/pdf/ser1.png" alt="">
                             </div>
-                            <h4>Sertifikat 14001 Engleski</h4>
-                          <p> Sertifikatom se potvrđuje da je sistem menadžmenta zaštite sredine gore navedenog drustva odobrio PCA Sertifikacija </p>
+                            <h4>Certificate 14001 English</h4>
+                          <p> The certificate confirms that the environmental protection management system of the aforementioned company has been approved by PCA Certification </p>
                             <a class="more_btn" href="img/pdf/14001eng.pdf" target="_blank">Read More</a>
                         </div>
                     </div>
@@ -425,8 +414,8 @@
                             <div class="f_icon">
                                 <img src="img/pdf/ser1.png" alt="">
                             </div>
-                            <h4>Sertifikat 18001 Srpski</h4>
-                          <p> Sertifikatom se potvrđuje da je sistem menadžmenta bezbednosti i zdravlja na radu gore navedenog drustva odobrio PCA Sertifikacija </p>
+                            <h4>Certificate 18001 Serbian</h4>
+                          <p> The certificate confirms that the safety and health management system of the above company has been approved by the PCA Certification </p>
                             <a class="more_btn"  href="img/pdf/18001srp.pdf" target="_blank">Read More</a>
                         </div>
                     </div>
@@ -437,8 +426,8 @@
                             <div class="f_icon">
                                 <img src="img/pdf/ser1.png" alt="">
                             </div>
-                            <h4>Sertifikat 18001 Engleski</h4>
-                              <p> Sertifikatom se potvrđuje da je sistem menadžmenta bezbednosti i zdravlja na radu gore navedenog drustva odobrio PCA Sertifikacija </p>
+                            <h4>Certificate 18001 English</h4>
+                              <p>The certificate confirms that the safety and health management system of the above company has been approved by the PCA Certification</p>
                             <a class="more_btn"  href="img/pdf/18001srp.pdf" target="_blank">Read More</a>
                         </div>
                     </div>
@@ -447,8 +436,8 @@
                             <div class="f_icon">
                                 <img src="img/pdf/ser1.png" alt="">
                             </div>
-                            <h4>Sertifikat 27001 Srpski</h4>
-                          <p> Sertifikatom se potvrđuje da je sistem menadžmenta bezbednosti informacija gore navedenog drustva odobrio PCA Sertifikacija </p>
+                            <h4>Certificate 27001 Serbian</h4>
+                          <p> The certificate certifies that the information security management system of the above-mentioned company has been approved by PCA Certification </p>
                             <a class="more_btn"  href="img/pdf/27001srp.pdf" target="_blank">Read More</a>
                         </div>
                     </div>
@@ -457,8 +446,8 @@
                             <div class="f_icon">
                                 <img src="img/pdf/ser1.png" alt="">
                             </div>
-                            <h4>Sertifikat 27001 Engleski</h4>
-                            <p> Sertifikatom se potvrđuje da je sistem menadžmenta bezbednosti informacija gore navedenog drustva odobrio PCA Sertifikacija </p>
+                            <h4>Certificate 27001 English</h4>
+                            <p> The certificate certifies that the information security management system of the above-mentioned company has been approved by PCA Certification </p>
                             <a class="more_btn"  href="img/pdf/27001srp.pdf" target="_blank">Read More</a>
                         </div>
                     </div>
@@ -469,8 +458,8 @@
                             <div class="f_icon">
                                 <img src="img/pdf/ser1.png" alt="">
                             </div>
-                            <h4>Sertifikat 9001 Srpski </h4>
-                            <p> Sertifikatom se potvrđuje da je sistem menadžmenta kvaliteta gore navedenog drustva odobrio PCA Sertifikacija </p>
+                            <h4>Certificate 9001 Serbian </h4>
+                            <p> The certificate confirms that the quality management system of the aforementioned company has been approved by PCA Certification </p>
                             <a class="more_btn"  href="img/pdf/9001srp.pdf" target="_blank">Read More</a>
                         </div>
                     </div>
@@ -479,8 +468,8 @@
                             <div class="f_icon">
                                 <img src="img/pdf/ser1.png" alt="">
                             </div>
-                            <h4>Sertifikat 9001 Engleski</h4>
-                          <p> Sertifikatom se potvrđuje da je sistem menadžmenta kvaliteta gore navedenog drustva odobrio PCA Sertifikacija </p>
+                            <h4>Certificate 9001 English</h4>
+                          <p> The certificate confirms that the quality management system of the aforementioned company has been approved by PCA Certification </p>
                             <a class="more_btn"  href="img/pdf/9001srp.pdf" target="_blank">Read More</a>
                         </div>
                     </div>
@@ -489,8 +478,8 @@
                             <div class="f_icon">
                                 <img src="img/pdf/ser1.png" alt="">
                             </div>
-                            <h4>Sertifikat Firma Od Poverenja</h4>
-                          <p> Za odličnu reputaciju i doslednost u radu, kao i za korektnu saradnju sa klijentima i poslovnim saradnicima </p>
+                            <h4>Certificate Firm Of Confidence</h4>
+                          <p> For excellent reputation and consistency in work, as well as for proper cooperation with clients and business associates </p>
                             <a class="more_btn"  href="img/pdf/poverenje.pdf" target="_blank">Read More</a>
                         </div>
                     </div>
@@ -504,9 +493,9 @@
             <div class="left_3d">
                 <div class="shap_slider_inner owl-carousel" >
                     <div class="item klijenti">
-                        <h4>“Jednostavno profesionalci”</h4>
-                        <p>Firma Immo Clean je profesionalna firma koja je ispunila naša očekivanja u okviru održavanja poslovnog objekta u našem posedu.
-Ostvarujemo višegodišnju saradnju na obostrano zadovoljstvo.</p>
+                        <h4>“Simply professionals”</h4>
+                        <p>Immo Clean is a professional company that has fulfilled our expectations as part of the maintenance of a business facility in our possession.
+We are achieving long-term cooperation on mutual satisfaction.</p>
                         <!-- <div class="media">
                             <img src="img/team/people/people-5.jpg" alt="">
                             <div class="media-body">
@@ -516,8 +505,8 @@ Ostvarujemo višegodišnju saradnju na obostrano zadovoljstvo.</p>
                         </div> -->
                     </div>
                     <div class="item klijenti">
-                        <h4>“Sve preporuke”</h4>
-                        <p> Sa firmom Immo Clean imamo najpozitivnije iskustvo. Tople preporuke zainteresovanim klijentima.</p>
+                        <h4>“All recommendations”</h4>
+                        <p> With Immo Clean we have the most positive experience. Warm recommendations to interested customers.</p>
                         <!-- <div class="media">
                             <img src="img/team/people/people-5.jpg" alt="">
                             <div class="media-body">
@@ -527,8 +516,8 @@ Ostvarujemo višegodišnju saradnju na obostrano zadovoljstvo.</p>
                         </div> -->
                     </div>
                     <div class="item klijenti">
-                        <h4>“Oni su najbolji”</h4>
-                        <p>Održavanje prostora od strane firme Immo Clean je jedna od naših najboljih odluka u okviru poslovanja. Kada je prostor uredan I čist, onda su zadovoljni I klijenti I poslodavci, tako da, napravili smo pravi izbor. Bravo za Immo Clean.</p>
+                        <h4>“They are the best”</h4>
+                        <p>Spatial maintenance by Immo Clean is one of our best business decisions. When space is clean and clean, then both clients and employers are satisfied, so we made the right choice. Good for Immo Clean.</p>
                         <!-- <div class="media">
                             <img src="img/team/people/people-5.jpg" alt="">
                             <div class="media-body">
@@ -547,11 +536,11 @@ Ostvarujemo višegodišnju saradnju na obostrano zadovoljstvo.</p>
                             <!-- <h6>Discover the features</h6> -->
                             <h2>IMMO CLEAN</h2>
                         </div>
-                        <p>Se od 2009. godine bavi profesionalnim čišćenjem i održavanjem higijene poslovnih i stambenih prostora. Mi smo austrijska firma koja Vam nudi evropski standard čišćenja i održavanja higijene po trenutno najpovoljnijim cenama na tržištu. Zapošljavamo više od trideset visokoprofesionalnih radnika.
+                        <p>Since 2009, he has been engaged in professional cleaning and maintenance of business and residential hygiene. We are an Austrian company that offers you a European standard of cleaning and hygiene at the currently best prices on the market. We employ more than hundred highly professional workers.
 
-Sva univerzalna i specijalizovana profesionalna sredstva za higijenu koja koristimo su od svetski priznatih proizvodjača pogodna za korišćenje u kancelarijama, bankama, hotelima, medicinskim ustanovama, restoranima, hipermarketima, magacinima i slično. Proizvedena su u skladu sa evropskimstandardima, pouzdana i u skladu sa važećim propisima. Na zahtev dostavljamo sertifikate.
+All the universal and specialized professional hygiene products we use are from globally recognized manufacturers suitable for use in offices, banks, hotels, medical institutions, restaurants, hypermarkets, warehouses and the like. Manufactured in accordance with European standards, reliable and in accordance with applicable regulations. On request, we deliver certificates.
 
-Kvalitet naših usluga dokazuje preko 30 veoma zadovoljnih stalnih klijenata među kojima su Dom zdravlja Jedro, klinika Bel Medic, Beli dvor, Beogradska tvrđava, Farley investors (naselje West) i mnogi drugi i preko 100 povremenih klijenata među kojima su banke, medicinske ustanove, preduzeća, apoteke, dr.
+The quality of our services is proven by over 30 very satisfied permanent clients, including the Health Center Jedro, Bel Medic Clinic, Beli Dvor, Belgrade Fortress, Farley Investors (West) and many more than 100 occasional clients, including banks, medical institutions, companies , pharmacy, etc.
                       </p>
                     </div>
                     <div class="shap_mobile">
@@ -564,15 +553,15 @@ Kvalitet naših usluga dokazuje preko 30 veoma zadovoljnih stalnih klijenata me�
 
 
 <section class="section section-light">
-    <h2>Tehnička podrska:</h2>
+    <h2>Technical support:</h2>
     <p>
-        Klijentima stojimo na raspolaganju 365 dana u godini 24/7  </p>
+        We are available to our customers for 365 days a year 24/7 </p>
 </section>
 
 <div class="pimg2">
     <div class="ptext">
-          <a href="onama.html">
-            <span class="border trans"> O nama
+          <a href="about-us.html">
+            <span class="border trans"> About us
           </span></a>
 
     </div>
@@ -601,19 +590,19 @@ Kvalitet naših usluga dokazuje preko 30 veoma zadovoljnih stalnih klijenata me�
 
                           </div> -->
                             <div class="form-group col-lg-6">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Ime i prezime">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
                             </div>
                             <div class="form-group col-lg-6">
                                 <input type="email" class="form-control" id="email" name="email" placeholder="Email ">
                             </div>
                             <div class="form-group col-lg-12">
-                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Naslov*">
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject*">
                             </div>
                             <div class="form-group col-lg-12">
-                                <textarea class="form-control" name="message" id="message" rows="1" placeholder="Vaša poruka"></textarea>
+                                <textarea class="form-control" name="message" id="message" rows="1" placeholder="your message"></textarea>
                             </div>
                             <div class="form-group col-lg-12">
-                                <button type="submit" value="submit" class="btn submit_btn form-control">Pošalji</button>
+                                <button type="submit" value="submit" class="btn submit_btn form-control">Send</button>
                             </div>
                         </form>
                     </div>
@@ -622,10 +611,10 @@ Kvalitet naših usluga dokazuje preko 30 veoma zadovoljnih stalnih klijenata me�
                             <div class="l_title">
 
 
-                                <h2>Kontaktirajte nas, pošaljite nam e-mail ili nas nazovite</h2>
+                                <h2>Contact us, send us an e-mail or call us</h2>
                             </div>
-                            <p>Potreban vam je posao? Ostavite vašu radnu biografiju na našem sajtu. Možda ste baš vi prava osoba za nas.</p>
-                            <a href="tel:+381117873111"><h5>Nazovite nas sad</h5></a>
+                            <p>You need a job? Leave your CV on our site. You may be just the right person for us.</p>
+                            <a href="tel:+381117873111"><h5>Call us now</h5></a>
                             <a href="tel:+381117873111"><h4>+381 11 78 73 111</h4></a>
                         </div>
                     </div>
@@ -657,7 +646,7 @@ Kvalitet naših usluga dokazuje preko 30 veoma zadovoljnih stalnih klijenata me�
                         <div class="col-lg-4 col-sm-6">
                             <aside class="f_widget f_about_widget">
                                 <img src="img/immo_logo.jpg" alt="">
-                                <p>Vaš partner za apsolutnu čistoću</p>
+                                <p>Your partner for apsolutely clean</p>
                             </aside>
                         </div>
                         <div class="col-lg-4 col-sm-6">
@@ -702,9 +691,7 @@ Copyright Immo Clean &copy;<script>document.write(new Date().getFullYear());</sc
                     </div>
                     <div class="float-sm-right">
                         <ul>
-
                             <li><a href="https://www.facebook.com/immoclean.profesionalno.ciscenje/"><i class="fa fa-facebook"></i></a></li>
-
                         </ul>
                     </div>
                 </div>

@@ -1,37 +1,53 @@
+
+
 <?php
 
-    // Get the form fields, removes html tags and whitespaces.
+if(isset($_POST['send'])) {
 
-    $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+	if(isset($_POST['name']) && !empty($_POST['name'])) {
+		$email = filter_var(trim($_POST["name"]), FILTER_SANITIZE_STRING);
+	} else {
+		header("Location: http://www.immoclean.org/index.php?email=-1#contact_form");
+    	exit;
+	}
 
-    $message = trim($_POST["message"]);
+	if(isset($_POST['email']) && !empty($_POST['email'])) {
+		$email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+	} else {
+		header("Location: http://www.immoclean.org/index.php?email=-1#contact_form");
+    	exit;
+	}
 
-    // Check the data.
-    if ( empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        header("Location: http://www.beogal.com/contact.php?success=-1#form");
-        exit;
-    }
+	if(isset($_POST['message']) && !empty($_POST['message'])) {
+		$message = filter_var(trim($_POST["message"]), FILTER_SANITIZE_STRING);
+	} else {
+		header("Location: http://www.immoclean.org/index.php?message=-1#contact_form");
+    	exit;
+	}
 
-    // Set the recipient email address. Update this to your desired email address.
-    $recipient = "beogal11000@gmail.com";
+}
 
-    // Set the email subject.
-    $subject = "Contact Form Message";
 
-    // Build the email content.
 
-    $email_content .= "Email: $email\n";
+	$recipient = "stefanparovic@yahoo.com";
 
-    $email_content .= "Message: \n$message\n";
+	$subject = "Contact Form Message";
 
-    // Build the email headers.
-    $email_headers = "From: <$email>";
 
-    // Send the email.
-    mail($recipient, $subject, $email_content, $email_headers);
+	$email_content .= "Name: $name\n\n";
+	$email_content .= "Email Address: $email\n\n";
+	$email_content .= "Message: \n$message\n";
 
-    // Redirect to the index.html page with success code
-    header("Location: http://www.beogal.com/contact.php?success=1#form");
+	$email_headers = "From: <$email>";
 
+	$send = mail($recipient, $subject, $email_content, $email_headers);
+
+	if($send) {
+		header("Location: http://www.immoclean.org/index.php?success=1#contact_form");
+		exit;
+	} else {
+		header("Location: http://www.immoclean.org/index.php?success=-1#contact_form");
+		exit;
+	}
 
 ?>
