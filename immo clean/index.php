@@ -597,16 +597,21 @@ Kvalitet naših usluga dokazuje preko 30 veoma zadovoljnih stalnih klijenata me�
                         }
                       ?>
                         <form class="contact_us_form row" action="mailer.php" method="post" id="contact_form">
+							<?php
+        						if ($_GET['name'] == -1) {
+        							echo "<div class=\"form-messages error\">Please enter your name!</div>";
+        						}
+        					?>
 
                             <div class="form-group col-lg-6">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Ime i prezime" required>
+                                <input type="name" class="form-control" id="name" name="name" placeholder="Ime i prezime" required>
                             </div>
 
                             <?php
-        											if ($_GET['email'] == -1) {
-        												echo "<div class=\"form-messages error\">Please enter your email address!</div>";
-        											}
-        										?>
+        						if ($_GET['email'] == -1) {
+        							echo "<div class=\"form-messages error\">Please enter your email address!</div>";
+        						}
+        					?>
 
                             <div class="form-group col-lg-6">
                                 <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
@@ -616,15 +621,15 @@ Kvalitet naših usluga dokazuje preko 30 veoma zadovoljnih stalnih klijenata me�
                             </div> -->
 
                             <?php
-        											if ($_GET['message'] == -1) {
-        													echo "<div class=\"form-messages error\">Please write something!</div>";
+        						if ($_GET['message'] == -1) {
+        							echo "<div class=\"form-messages error\">Please write something!</div>";
         											}
-        										?>
+        					?>
                             <div class="form-group col-lg-12">
                                 <textarea class="form-control" name="message" id="msg" rows="1" placeholder="Vaša poruka" required></textarea>
                             </div>
                             <div class="form-group col-lg-12">
-                                <button type="submit" value="submit" class="btn submit_btn form-control">Pošalji</button>
+                                <button type="submit" value="submit" name="send" class="btn submit_btn form-control">Pošalji</button>
                             </div>
                         </form>
                     </div>

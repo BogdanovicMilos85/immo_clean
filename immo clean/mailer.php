@@ -5,9 +5,9 @@
 if(isset($_POST['send'])) {
 
 	if(isset($_POST['name']) && !empty($_POST['name'])) {
-		$email = filter_var(trim($_POST["name"]), FILTER_SANITIZE_STRING);
+		$name = filter_var(strip_tags(trim($_POST["name"])), FILTER_SANITIZE_STRING);
 	} else {
-		header("Location: http://www.immoclean.org/index.php?email=-1#contact_form");
+		header("Location: http://www.immoclean.org/index.php?name=-1#contact_form");
     	exit;
 	}
 
@@ -27,6 +27,11 @@ if(isset($_POST['send'])) {
 
 }
 
+if(empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+		header("Location: http://www.immoclean.org/index.php?success=-1#contact_form");
+		exit;
+}
+ 
 
 
 	$recipient = "stefanparovic@yahoo.com";
